@@ -31,3 +31,19 @@ Implementing all the machine learning techniques on a predefined dataset.
 ### Lab 4 – Linear and Logistic Regression Models
 - **Linear Regression**: Predicted hemoglobin levels from numeric features; evaluated with MAE, MSE, RMSE, and R²; plotted actual vs predicted and residual plots
 - **Logistic Regression**: Predicted CKD class from all features; evaluated with accuracy, precision, recall, F1 score, confusion matrix, and ROC curve with AUC
+
+### Lab 6 – K-Nearest Neighbor and SVM Classification Models
+- **KNN**: Found optimal K (1–20) using accuracy vs K plot; evaluated with accuracy, precision, recall, F1 score, confusion matrix, and ROC curve (AUC)
+- **SVM**: Compared linear, RBF, poly, and sigmoid kernels; best kernel (RBF) achieved 100% accuracy; evaluated with full classification report and ROC curve
+- **Comparison**: Side-by-side performance bar chart for KNN vs SVM across all metrics
+
+### Lab 7 – Bagging, Boosting and Stacking Ensemble Methods
+- **Bagging**: Trained BaggingClassifier (Decision Tree base) and Random Forest; plotted feature importances
+- **Boosting**: Trained AdaBoost and Gradient Boosting classifiers with ROC curve comparison
+- **Stacking**: Combined DT, KNN, and SVM base learners with Logistic Regression meta-learner (100% accuracy)
+- **Comparison**: Overall performance bar chart across all five ensemble models
+
+### Lab 8 – K-Means and Hierarchical Clustering
+- **K-Means**: Used Elbow method and Silhouette scores to find optimal K; visualized clusters in 2D PCA space with centroids; evaluated against true labels using ARI and NMI
+- **Hierarchical**: Plotted dendrogram (Ward linkage, sample of 80); compared Ward, complete, average, and single linkage methods; visualized best clustering in PCA space
+- **Comparison**: Side-by-side PCA scatter plots (true labels vs K-Means vs Hierarchical) and quality metrics bar chart
